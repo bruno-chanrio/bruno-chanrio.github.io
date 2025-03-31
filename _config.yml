@@ -1,0 +1,37 @@
+remote_theme: bruno-chanrio/materialize-jekyll@1.1
+plugins:
+- jekyll-remote-theme
+- jekyll-last-modified-at
+- jemoji
+
+author: Bruno-chanrio 
+
+head-title: Bruno-chanrio 
+title: Bruno-chanrio 
+
+baseurl: ""    # the subpath of your site, "/blog"
+url: ""
+
+# footer 
+description: High Quality Software and Android app developer
+
+developedby: true
+
+#
+# Custom
+#
+
+# Color
+# All css class, see: http://materializecss.com/color.html
+header-color: "pink lighten-1"
+head-theme-color: "#FF00AA"     # MUST in hex format, may the same as header-color. This color is for android chrome browser.
+
+footer-color: "pink lighten-1"
+footer-button-color: "pink lighten-2"
+footer-link-color: "red-text text-accent-1"
+
+share-button-color: "pink"
+share-button-small-color: ""
+
+##
+#excerpt_separator: <!-- excerpt_end -->       # for post.excerpt
